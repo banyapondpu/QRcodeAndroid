@@ -5,7 +5,10 @@ How to setup this repo:
 
 <code>git clone https://github.com/banyapondpu/QRcodeAndroid.git</code>
 
-copy folder "qrcode" and "camera" to you package same "MainActivity.java" file.
+copy folder "qrcode" and "camera" to you package.
+
+copy strings.xml to res->values folder.
+copy qrcode_view.xml to res->layout folder.
 
 In your build.grade (Module: App) predefine with dependency:
 
@@ -19,5 +22,8 @@ android.permission.CAMERA
 <code>
 android.permission.WRITE_EXTERNAL_STORAGE
 </code>
+-----------------------------------------------------
 
-See MainActivity.java file for how to use this repo.
+See MainActivity.java and activity_main.xml file for how to use this repo.
+
+Cheer!
