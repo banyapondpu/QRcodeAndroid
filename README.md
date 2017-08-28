@@ -22,7 +22,8 @@ android.permission.CAMERA
 <code>
 android.permission.WRITE_EXTERNAL_STORAGE
 </code>
------------------------------------------------------
+
+
 
 See MainActivity.java and activity_main.xml file for how to use this repo.
 
