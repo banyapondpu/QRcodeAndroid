@@ -17,9 +17,7 @@ In your build.grade (Module: App) predefine with dependency:
 Allow Camera permission in AndroidmaniFest.xml file with:
 
 <code>
-android.permission.CAMERA
-</code>
-<code>
+android.permission.CAMERA,
 android.permission.WRITE_EXTERNAL_STORAGE
 </code>
 
