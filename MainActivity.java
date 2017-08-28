@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
                     Barcode barcode = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
                     Point[] p = barcode.cornerPoints;
                     QrResultText.setText(barcode.displayValue);
-                } else QrResultText.setText(R.string.no_barcode_captured);
-            } else Log.e(LOG_TAG, String.format(getString(R.string.barcode_error_format),
+                } else QrResultText.setText(R.string.no_qrcode);
+            } else Log.e(LOG_TAG, String.format(getString(R.string.wrong_format_code),
                     CommonStatusCodes.getStatusCodeString(resultCode)));
         } else super.onActivityResult(requestCode, resultCode, data);
     }
