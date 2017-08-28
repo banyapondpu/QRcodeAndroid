@@ -16,7 +16,7 @@
  * This file and all BarcodeXXX and CameraXXX files in this project edited by
  * Daniell Algar (included due to copyright reason)
  */
-package com.varvet.barcodereadersample.barcode;
+package qrcode;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -44,9 +44,9 @@ import com.google.android.gms.vision.MultiProcessor;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
 
-import com.varvet.barcodereadersample.R;
-import com.varvet.barcodereadersample.camera.CameraSource;
-import com.varvet.barcodereadersample.camera.CameraSourcePreview;
+import com.daydev.qrcodesample.R;
+import camera.CameraSource;
+import camera.CameraSourcePreview;
 
 import java.io.IOException;
 
@@ -73,7 +73,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        setContentView(R.layout.barcode_capture);
+        setContentView(R.layout.qrcode_view);
 
         mPreview = (CameraSourcePreview) findViewById(R.id.preview);
 
